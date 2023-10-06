@@ -78,9 +78,6 @@ export default function TextFieldsForm() {
             gap: '8px',
           }}
         >
-          <Button variant="contained" onClick={handleOpenSavedFunctionsDialog}>
-            <FolderIcon />
-          </Button>
           <Button variant="contained" onClick={handleOpenEditSpecificationsCodeDialog}>
             <CodeIcon />
           </Button>
